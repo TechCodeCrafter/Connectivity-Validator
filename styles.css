@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #498467;
+}
+
+.container .content {
+  padding: 4rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-align: center;
+  width: 55%;
+  background-color: #49475b;
+  color: #dce1de;
+}
+.container .content .display {
+  padding: 1rem;
+}
